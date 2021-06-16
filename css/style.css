@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+/*setting values to be reused throughout the code*/
+
+html, body{
+	background-color: FFF3E9;
+}
+.menu-bar{
+	/*background-image: linear-gradient(-90deg, #F46F00, #FFD9B9);*/
+	background-color: #F46F00;
+}
+
+.nav-row{
+	background-color: orange;
+	text-align: center;
+	padding: 10px 0px;
+}
+.active-link{
+	background-color: white; 
+	padding: 5px 40px;
+	border-radius: 30px;
+	margin: 0px 5px;
+}
+
+.margin-topp{
+	margin: 2px 2px;
+}
+
+.nav-item a:hover{
+	background-color: white;
+	text-decoration: none;
+	border: none;
+}
+
+
+/*.add-item:hover{
+	background-color: #00A53C;
+	text-decoration: none;
+	border: 0px;
+	border-radius: 5px;
+	color: white!important;
+}*/
+.nav-link{
+	color: white;
+	font-weight: 600;
+}
+.nav-div{
+	background-color: #F46F00;
+	margin-bottom: 10px;
+
+}
+.analytics-1{
+	margin-top: 50px;
+	height: 100px;
+	/*background-color: #F46F00;*/
+	background-image: url(../images/pcs.png);
+	opacity: 0.8;
+	margin: 5px;
+	border-radius: 5px;
+	/*display: flex;
+	justify-content: space-around;
+	align-items: center;*/
+	text-align: center;
+}
+.analytics-1 i{
+	font-size: 80px;
+	opacity: 0.7;
+}
+.analytics-1 h1{
+	font-size: 50px;
+	margin-top: 0px;
+}
+.analytics-1 h3{
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+
+.analytics-2{
+	margin-top: 10px;
+}
+.item-numbers{
+	/*background-image: linear-gradient(-90deg, #F46F00, #FFBB81);*/
+	border-radius: 5px;
+	border: 1px solid #F46F00;
+	height: 100px;
+	margin: 0px 5px;
+}
+
+.item-numbers:hover{
+	background-image: linear-gradient(-90deg, #FFFADC, #FFFFFF);
+
+}
+
+.latest-assets{
+	/*background-color: gray;*/
+	height: 500px;
+	margin: 0px 5px;
+	border-radius: 5px;
+}
+
+
+
+/*.main-content{
+	margin-left: 20px;
+	margin-right: 20px;
+}*/
+
+.main-content p{
+	margin-top: 30px;
+}
+.add-item{
+	background-color: #0074FF;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+}
+
+
+
+
+.inner-row{
+	display: flex;
+	align-items: center;
+}
+
+.inner-col h3, .inner-col h1{
+	color: white;
+	font-weight: 600;
+}
+
+.active-asset{
+	background-color: white;
+	color: black;
+}
+
+
+.add-asset{
+	display: flex;
+	align-items: center;
+	margin-top: 5%;
+}
+.add-asset-form h2{
+	text-align: center;
+}
+
+.lower-line{
+	margin-top: 30px;
+}
